@@ -1,5 +1,14 @@
 @import url("bootstrap.min.css");
 
+
+.fondo {
+	background: #20d87b;
+	background: -moz-linear-gradient(left, #20d87b 0%, #18e3c9 100%);
+	background: -webkit-linear-gradient(left, #20d87b 0%,#18e3c9 100%);
+	background: linear-gradient(to right, #20d87b 0%,#18e3c9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#20d87b', endColorstr='#18e3c9',GradientType=1 );
+}
+
         #coinName{
             text-transform: capitalize;
         }
