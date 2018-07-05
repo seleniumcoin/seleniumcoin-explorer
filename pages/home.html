@@ -446,6 +446,8 @@ $('#goto-height').keyup(function(e){
             '<td class="blk-diff">' + block.difficulty + '</td>' +
             '<td>' + block.tx_count + '</td>';
 
+	console.log(block);
+
 		Difficulties.push(parseInt(block.difficulty));
 		Blocks.push(parseInt(block.height));
 		Txses.push(parseInt(block.tx_count));

@@ -25,9 +25,10 @@
 		var style_cookie_name = "style";
 		var style_cookie_duration = 365;
 		var style_domain = window.location.hostname;
+console.log(style_domain);
 
 		$(function(){
-			$('.theme-switch[rel="/css/themes/white/style.css"]').hide();
+			$('.theme-switch[rel="css/themes/white/style.css"]').hide();
 			set_style_from_cookie();
 
 			$('.theme-switch').click(function() {
@@ -267,7 +268,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand " href="/explorer/index.html"><span id="coinIcon"><img src="favicon.ico"></span> <strong>Crypto</strong> LuKa</a>
+			<a class="navbar-brand " href="/"><span id="coinIcon"><img src="favicon.ico"></span> <strong>Crypto</strong> LuKa</a>
 			<div id="stats_updated"><i class="fa fa-bolt"></i></div>
 		</div>
 		
@@ -518,8 +519,7 @@
 			<script type="text/javascript">
 				jQuery(function($) { $(document).ready(function() {
 
-					alert('Sitio en construcción!');
-
+					
 					$(window).scroll(function(){
 						if ($(this).scrollTop() > 500) {
 							$('.scrollup').fadeIn();
