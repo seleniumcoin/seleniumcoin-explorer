@@ -1,2 +1,2 @@
-# Bestchancecoin-Blockchain-Explorer
-Block explorer for Bestchancecoin.
+# Seleniumcoin-Blockchain-Explorer
+Block explorer for Seleniumcoin.
